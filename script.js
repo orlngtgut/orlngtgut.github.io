@@ -20,7 +20,11 @@ document.getElementById('siBtn').addEventListener('click', function() {
 
     // Mostrar el mensaje específico
     document.getElementById('messageContainer').style.display = 'block';
-    document.getElementById('messageContainer').innerHTML = 'Ves como te encanto xD';
+  document.getElementById('messageContainer').innerHTML = 'Ves como te encanto xD';
+  
+  setTimeout(function() {
+    document.getElementById('messageContainer').innerHTML += '<br><a href="https://orlngtgut.github.io/flores/index.html" target="_blank">mira flores bonitas como tu</a><br><br><a href="https://orlngtgut.github.io/babosa/index.html" target="_blank">Animacion de rosa con mensaje de te amo babosa</a>';
+  }, 3000); // 3000 milisegundos = 3 segundos
 
     // Mostrar otro gif después de 3 segundos
     setTimeout(function() {
